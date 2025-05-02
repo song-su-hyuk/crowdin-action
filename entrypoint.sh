@@ -301,6 +301,8 @@ echo "STARTING CROWDIN ACTION"
 
 echo ${GITHUB_WORKSPACE}
 
+ls -al /github/workspace
+
 cd "${GITHUB_WORKSPACE}" || exit 1
 
 ls -al .
