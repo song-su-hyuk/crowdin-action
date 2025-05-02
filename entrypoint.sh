@@ -299,6 +299,8 @@ setup_commit_signing() {
 
 echo "STARTING CROWDIN ACTION"
 
+echo ${GITHUB_WORKSPACE}
+
 cd "${GITHUB_WORKSPACE}" || exit 1
 
 ls -al .
