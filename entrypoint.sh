@@ -299,6 +299,8 @@ setup_commit_signing() {
 
 echo "STARTING CROWDIN ACTION"
 
+ls -al ${GITHUB_WORKSPACE}
+
 cd "${GITHUB_WORKSPACE}" || exit 1
 
 git config --global --add safe.directory $GITHUB_WORKSPACE
